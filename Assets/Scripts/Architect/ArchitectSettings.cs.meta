@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b19404b0dbc320141ac36b818cac1386
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RoomPrefab: {fileID: 3018834069991498633, guid: 37a35d9ca8fedcf42bb3033dbf4a3b73,
+      type: 3}
+  - CellPrefab: {fileID: 7596031791287324232, guid: 8b9db85d91bcdf6488e34878987f9388,
+      type: 3}
+  - ConnectionPrefab: {fileID: 6755102210262872406, guid: 0495fe653b6dee34091ca93de1656c19,
+      type: 3}
+  - EdgePrefab: {fileID: 7253700377573251378, guid: 9ff13600021ba254aafdd47632f02566,
+      type: 3}
+  - FloorPrefab: {fileID: 2900910523484448682, guid: 4045d846b5b24d546ad0e9adf8466425,
+      type: 3}
+  - WallPrefab: {fileID: 4725301310450005160, guid: d615dbb60f9b31147adf029af1f1c8db,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

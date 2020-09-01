@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64323f4600cf42438790ab8373e9157, type: 3}
+  m_Name: RoomLayout
+  m_EditorClassIdentifier: 
+  ShapeData:
+    RoomSize: {x: 14, y: 10}
+    Shape:
+    - {x: 0, y: 0}
+    - {x: 0, y: 10}
+    - {x: 6, y: 10}
+    - {x: 14, y: 10}
+    - {x: 14, y: 5}
+    - {x: 10, y: 5}
+    - {x: 10, y: 0}
+    Walls:
+    - AllowConnection: 1
+      CornerA: {x: 0, y: 0}
+      CornerB: {x: 0, y: 9}
+      SerializedSide: 3
+    - AllowConnection: 1
+      CornerA: {x: 0, y: 9}
+      CornerB: {x: 5, y: 9}
+      SerializedSide: 1
+    - AllowConnection: 0
+      CornerA: {x: 6, y: 9}
+      CornerB: {x: 13, y: 9}
+      SerializedSide: 1
+    - AllowConnection: 0
+      CornerA: {x: 13, y: 9}
+      CornerB: {x: 13, y: 5}
+      SerializedSide: 4
+    - AllowConnection: 1
+      CornerA: {x: 13, y: 5}
+      CornerB: {x: 10, y: 5}
+      SerializedSide: 2
+    - AllowConnection: 0
+      CornerA: {x: 9, y: 4}
+      CornerB: {x: 9, y: 0}
+      SerializedSide: 4
+    - AllowConnection: 0
+      CornerA: {x: 9, y: 0}
+      CornerB: {x: 0, y: 0}
+      SerializedSide: 2
